@@ -50,14 +50,14 @@ export function LandingHeader() {
 
                 <div className="flex items-center gap-3">
                     <Link
-                        href="/sign-in"
+                        href="https://dashboard.logix.chefu.co.za"
                         className="hidden cursor-pointer sm:inline-flex items-center rounded-sm border border-slate-800 bg-slate-900/60 px-3 py-1.5 text-xs font-medium tracking-tight text-slate-100 hover:border-slate-600 hover:bg-slate-900 transition-colors"
                     >
                         Log in
                     </Link>
 
                     <Link
-                        href="/sign-up"
+                        href="https://dashboard.logix.chefu.co.za"
                         className="inline-flex cursor-pointer items-center rounded-sm bg-sky-500/90 px-3.5 py-1.5 text-xs font-semibold tracking-tight text-slate-950 shadow-sm hover:bg-sky-400 transition-colors"
                     >
                         Get Started

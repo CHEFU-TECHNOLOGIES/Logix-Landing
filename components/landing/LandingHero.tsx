@@ -122,7 +122,7 @@ export function LandingHero() {
                     </p>
 
                     <div className="flex flex-wrap items-center gap-4 mb-10">
-                        <Link href="/dashboard/overview">
+                        <Link target="_blank" href="https://dashboard.logix.chefu.co.za">
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}

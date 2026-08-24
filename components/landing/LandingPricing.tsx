@@ -54,7 +54,7 @@ export function LandingPricing() {
                             )}
                         </ul>
                         <Link
-                            href="#"
+                            href="https://dashboard.logix.chefu.co.za"
                             className="mt-auto w-full py-2 rounded-md border border-slate-800 bg-slate-900 text-xs font-medium text-slate-300 hover:bg-slate-800 transition-colors text-center"
                         >
                             Start Free
@@ -102,7 +102,7 @@ export function LandingPricing() {
                             ))}
                         </ul>
                         <Link
-                            href="#"
+                            href="https://dashboard.logix.chefu.co.za"
                             className="mt-auto w-full py-2 rounded-md bg-sky-500 text-xs font-bold text-slate-950 hover:bg-sky-400 transition-colors text-center"
                         >
                             Get Started
@@ -145,7 +145,7 @@ export function LandingPricing() {
                             ))}
                         </ul>
                         <Link
-                            href="#"
+                            href="https://dashboard.logix.chefu.co.za"
                             className="mt-auto w-full py-2 rounded-md border border-slate-800 bg-slate-900 text-xs font-medium text-slate-300 hover:bg-slate-800 transition-colors text-center"
                         >
                             Choose Pro
