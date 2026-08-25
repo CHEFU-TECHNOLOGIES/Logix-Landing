@@ -102,6 +102,7 @@ export function LandingPricing() {
                             ))}
                         </ul>
                         <Link
+                            target="_blank"
                             href="https://dashboard.logix.chefu.co.za"
                             className="mt-auto w-full py-2 rounded-md bg-sky-500 text-xs font-bold text-slate-950 hover:bg-sky-400 transition-colors text-center"
                         >

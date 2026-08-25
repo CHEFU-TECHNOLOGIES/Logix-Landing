@@ -79,6 +79,7 @@ export function LandingCTA() {
                     className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row"
                 >
                     <Link
+                        target="_blank"
                         href="https://dashboard.logix.chefu.co.za"
                         className="group inline-flex w-full items-center justify-center gap-2 rounded-md bg-sky-500 px-6 py-3 text-sm font-semibold tracking-tight text-slate-950 shadow-[0_0_25px_-8px_rgba(14,165,233,0.7)] transition-all duration-200 hover:bg-sky-400 hover:shadow-[0_0_30px_-6px_rgba(14,165,233,0.8)] sm:w-auto"
                     >

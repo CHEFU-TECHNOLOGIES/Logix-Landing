@@ -17,9 +17,9 @@ const steps = [
         description:
             "Add the SDK to your app with your favorite package manager.",
         icon: Package,
-        code: `npm install @logix/next
+        code: `npm install @chefu-tech/logix-next
 # or
-npm install @logix/express`,
+npm install @chefu-tech/logix-express`,
         language: "bash",
     },
     {
@@ -27,7 +27,7 @@ npm install @logix/express`,
         title: "Initialize the logger",
         description: "Configure the logger with your API key.",
         icon: MousePointerClick,
-        code: `import { createLogger } from "@logix/next";
+        code: `import { createLogger } from "@chefu-tech/logix-next";
 
 export const log = createLogger({
   apiKey: process.env.LOGIX_API_KEY!,
@@ -244,14 +244,14 @@ export function LandingSetup() {
                                 key={step.id}
                                 onClick={() => setActiveStep(index)}
                                 className={`group relative flex gap-5 p-5 rounded-xl transition-all duration-300 cursor-pointer border ${activeStep === index
-                                        ? "bg-slate-900/50 border-sky-500/30 shadow-[0_0_20px_-5px_rgba(14,165,233,0.15)]"
-                                        : "bg-transparent border-transparent hover:bg-slate-900/30 hover:border-slate-800"
+                                    ? "bg-slate-900/50 border-sky-500/30 shadow-[0_0_20px_-5px_rgba(14,165,233,0.15)]"
+                                    : "bg-transparent border-transparent hover:bg-slate-900/30 hover:border-slate-800"
                                     }`}
                             >
                                 <div
                                     className={`shrink-0 h-10 w-10 rounded-full flex items-center justify-center border transition-colors duration-300 ${activeStep === index
-                                            ? "bg-sky-500/10 border-sky-500/50 text-sky-400"
-                                            : "bg-slate-900 border-slate-800 text-slate-500 group-hover:border-slate-700 group-hover:text-slate-400"
+                                        ? "bg-sky-500/10 border-sky-500/50 text-sky-400"
+                                        : "bg-slate-900 border-slate-800 text-slate-500 group-hover:border-slate-700 group-hover:text-slate-400"
                                         }`}
                                 >
                                     <step.icon className="h-5 w-5" />
@@ -260,8 +260,8 @@ export function LandingSetup() {
                                 <div>
                                     <h3
                                         className={`text-lg font-semibold transition-colors duration-300 ${activeStep === index
-                                                ? "text-sky-400"
-                                                : "text-slate-200 group-hover:text-slate-100"
+                                            ? "text-sky-400"
+                                            : "text-slate-200 group-hover:text-slate-100"
                                             }`}
                                     >
                                         {step.title}
