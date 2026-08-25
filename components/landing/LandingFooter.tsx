@@ -56,7 +56,7 @@ export function LandingFooter() {
                         </Link>
 
                         <Link
-                            href="https://github.com/CHEFU-TECHNOLOGIES"
+                            href="https://github.com/CHEFU-TECHNOLOGIES/Logix-Landing.git"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-flex items-center gap-1.5 text-slate-500 transition-colors hover:text-slate-200"
@@ -74,7 +74,9 @@ export function LandingFooter() {
                         </Link>
 
                         <Link
-                            href="/contact"
+                            href="https://chefu.co.za/contact?utm_source=logix_footer&utm_medium=referral&utm_campaign=footer"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="text-slate-500 transition-colors hover:text-slate-200"
                         >
                             Contact
