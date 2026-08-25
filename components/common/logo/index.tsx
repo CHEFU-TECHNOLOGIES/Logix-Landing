@@ -6,10 +6,10 @@ export default function Logo({ className, textClassName }: { className?: string;
         <>
             <Image
                 src="/logo.png"
-                alt="Company Logo"
-                width={42}
-                height={42}
-                className={cn("w-12 h-12", className)}
+                alt="Logix"
+                width={52}
+                height={52}
+                className={cn("w-15 h-15", className)}
             />
             <div className="flex flex-col justify-center">
                 <span className={cn("text-[26px] tracking-tighter text-slate-100 font-satoshi", textClassName)}>
