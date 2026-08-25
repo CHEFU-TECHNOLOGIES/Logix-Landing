@@ -27,11 +27,11 @@ export default function DocsNextJsGuidePage() {
                     1. Next.js Client Proxy Route
                 </h2>
                 <p>
-                    To prevent exposing your master API key in client browsers, create a catch-all proxy route under <code className="text-blue-400">app/api/1minute-logs/[types]/route.ts</code>:
+                    To prevent exposing your master API key in client browsers, create a catch-all proxy route under <code className="text-blue-400">app/api/logix-logs/[types]/route.ts</code>:
                 </p>
 
                 <pre className="p-4 bg-neutral-900 border border-neutral-800 rounded-lg text-neutral-200 overflow-x-auto">
-                    <code>{`// app/api/1minute-logs/[types]/route.ts
+                    <code>{`// app/api/logix-logs/[types]/route.ts
 import { NextRequest, NextResponse } from 'next/server';
 import { auth } from '@clerk/nextjs/server';
 

@@ -41,7 +41,7 @@ export function LandingHeader() {
                     </Link>
 
                     <Link
-                        href="/#"
+                        href="/docs"
                         className="hover:text-slate-50 transition-colors"
                     >
                         Docs

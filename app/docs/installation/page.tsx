@@ -49,10 +49,10 @@ yarn add @chefu-tech/logix-next`}</code>
 
                 <pre className="p-4 bg-neutral-900 border border-neutral-800 rounded-lg text-neutral-200 overflow-x-auto">
                     <code>{`# Master API Key for Server Ingestion & Proxies
-LOGIX_API_KEY="oml_live_a89f4129b048..."
+LOGIX_API_KEY="chf_a89f4129b048_..."
 
 # Next.js Public Server Endpoint
-NEXT_PUBLIC_LOGIX_SERVER_URI="https://logix.chefu.co.za/api"`}</code>
+NEXT_PUBLIC_LOGIX_SERVER_URI="https://api.chefu.co.za"`}</code>
                 </pre>
             </section>
 

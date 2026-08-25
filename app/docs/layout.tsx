@@ -58,17 +58,17 @@ export default function DocsLayout({ children }: { children: React.ReactNode }) 
                     </div>
 
                     <div className="flex items-center gap-5 text-xs font-mono">
-                        <Link href="/queries" className="text-neutral-400 hover:text-white transition-colors">
+                        <Link target='_blank' href="https://dashboard.logix.chefu.co.za/queries" className="text-neutral-400 hover:text-white transition-colors">
                             Query Explorer
                         </Link>
-                        <Link href="/live-logs" className="text-neutral-400 hover:text-white transition-colors">
+                        <Link target='_blank' href="https://dashboard.logix.chefu.co.za/live-logs" className="text-neutral-400 hover:text-white transition-colors">
                             Live Terminal
                         </Link>
-                        <Link href="/settings" className="text-neutral-400 hover:text-white transition-colors">
+                        <Link target='_blank' href="https://dashboard.logix.chefu.co.za/settings" className="text-neutral-400 hover:text-white transition-colors">
                             Billing
                         </Link>
                         <Link
-                            href="/api-keys"
+                            target='_blank' href="https://dashboard.logix.chefu.co.za/api-keys"
                             className="px-3 py-1.5 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded transition-colors"
                         >
                             Get API Keys →

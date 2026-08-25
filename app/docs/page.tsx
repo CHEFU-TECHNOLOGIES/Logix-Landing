@@ -75,7 +75,7 @@ export default function DocsOverviewPage() {
 
 export const logger = createLogger({
   apiKey: process.env.LOGIX_API_KEY!,
-  endpoint: 'https://logix.chefu.co.za/api',
+  endpoint: 'https://api.chefu.co.za',
   batchSize: 10,       // Flush automatically when queue reaches 10 entries
   flushInterval: 2000, // Or flush every 2 seconds
 });
