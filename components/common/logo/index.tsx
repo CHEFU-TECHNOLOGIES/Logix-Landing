@@ -9,25 +9,23 @@ interface LogoProps {
 
 export default function Logo({ className, imageClassName, textClassName }: LogoProps) {
     return (
-        <div className={cn("flex items-center gap-3", className)}>
+        <div className={cn("inline-flex items-center gap-1.5", className)}>
             <Image
                 src="/logo.png"
                 alt="Logix"
-                width={52}
-                height={52}
-                className={cn("w-[52px] h-[52px] object-contain", imageClassName)}
-                priority // Add priority if the logo is above-the-fold in the header
+                width={40}
+                height={40}
+                className={cn("w-9 h-9 object-contain scale-110 shrink-0", imageClassName)}
+                priority
             />
-            <div className="flex flex-col justify-center">
-                <span
-                    className={cn(
-                        "text-[26px] font-bold tracking-tighter text-slate-100 font-satoshi leading-none",
-                        textClassName
-                    )}
-                >
-                    Logix
-                </span>
-            </div>
+            <span
+                className={cn(
+                    "text-[32px] font-bold tracking-tight text-slate-100 font-satoshi leading-none select-none",
+                    textClassName
+                )}
+            >
+                Logix
+            </span>
         </div>
     );
 }
